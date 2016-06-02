@@ -1,0 +1,42 @@
+@font-face {
+font-family: 'CodeLight';
+src: url('../fonts/CODE Light.otf');
+
+}	 
+
+@font-face {
+font-family: 'RalewayLight';
+src: url('../fonts/Raleway-Light.ttf');
+
+}	 
+
+h1
+{
+    font-family: CodeLight;
+    font-size: 6.75rem;
+}
+
+@media screen and (max-width: 980px) {
+
+				h1 {
+					font-size: 4rem;
+				}
+
+			}
+
+#excellence
+{
+    font-family: RalewayLight;
+    font-size: 4rem;
+}
+#menu
+{
+    font-family: RalewayLight;
+    font-size: 2rem;
+}
+
+.button
+{
+    font-family: RalewayLight;
+    font-size: 1.3rem;
+}
