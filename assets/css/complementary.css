@@ -65,3 +65,44 @@ body
     width:30%;
     min-width: 300px;
 }
+
+.project_picture
+{
+    margin-bottom: 3px;
+}
+
+.project_picture
+{
+    min-height: 400px;
+    min-width:350px;
+    max-width: 750px;
+    display: inline-block;
+    width: 50%;
+    background-size: cover;
+    background-repeat: inherit;
+}
+
+.project_text
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+#epic_projects
+{
+    background-image: url("../../images/projects/epicprojects.png");
+
+}
+
+#web_tools
+{
+    background-image: url("../../images/projects/tools.png");
+
+}
+
+#swing_shooter
+{
+    background-image: url("../../images/projects/swing.png");
+
+}
