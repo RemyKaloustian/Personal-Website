@@ -57,3 +57,11 @@ body
 {
     text-align: center;
 }
+
+
+#not_into
+{
+    border-bottom: 1px solid white;
+    width:30%;
+    min-width: 300px;
+}
