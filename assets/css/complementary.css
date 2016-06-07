@@ -52,6 +52,12 @@ body
     font-size: 1.3rem;
 }
 
+.button:hover
+{
+    border:0px;
+    color: #F5F5F5;
+}
+
 
 .section_title
 {
