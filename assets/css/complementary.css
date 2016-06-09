@@ -131,3 +131,10 @@ body
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
+
+
+.image
+{
+    -webkit-filter: saturate(20%); /* Chrome, Safari, Opera */
+    filter: saturate(20%);
+}
