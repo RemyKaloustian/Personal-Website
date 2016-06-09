@@ -144,3 +144,53 @@ body
     -webkit-filter: saturate(150%); /* Chrome, Safari, Opera */
     filter: saturate(150%);
 }
+
+body #three
+{
+    background-color: #eeeeee;
+    color: #0F3057;
+    //font-family: LatoLight;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#contact_div
+{
+    width:50%;
+    background-color: white;
+    box-shadow: 0px 0px 1px 0px #0F3057;
+    //border: 1px solid #0F3057;
+    margin-right: auto;
+    margin-left: auto;
+   // margin-top: 50px;
+}
+
+#contact_icons
+{
+    display: inline-block;
+}
+
+
+#three i
+{
+    /*border: 1px solid #f04124;
+    border-radius: 500px;*/
+    padding:50px 50px 50px 50px;
+
+}
+
+hr
+{
+    background-color: #9e9e9e;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#three i:hover
+{
+    scale(20%);
+    color: #d80073;
+    transition-duration: 0.3s;
+}
