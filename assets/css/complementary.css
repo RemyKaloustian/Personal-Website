@@ -133,8 +133,14 @@ body
 }
 
 
-.image
+.project_pic
 {
     -webkit-filter: saturate(20%); /* Chrome, Safari, Opera */
     filter: saturate(20%);
+}
+
+.project_pic:hover
+{
+    -webkit-filter: saturate(150%); /* Chrome, Safari, Opera */
+    filter: saturate(150%);
 }
