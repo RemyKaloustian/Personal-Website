@@ -171,6 +171,15 @@ body #three
     display: inline-block;
 }
 
+.thumb a
+{
+    background-size: cover;
+}
+
+.thumb h2
+{
+    color: white;
+}
 
 #three i
 {
@@ -200,4 +209,15 @@ hr
 
 {
    padding-top: 30px;
+}
+
+
+body #loading_popup
+{
+    width:20%;
+    position: absolute;
+    z-index: 999;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1a1a1a;
 }

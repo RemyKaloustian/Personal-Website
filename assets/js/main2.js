@@ -243,17 +243,17 @@
 					// Hack: IE<11 doesn't support pointer-events, which means clicks to our image never
 					// land as they're blocked by the thumbnail's caption overlay gradient. This just forces
 					// the click through to the image.
-						if (skel.vars.IEVersion < 11)
+						/*if (skel.vars.IEVersion < 11)
 							$this
 								.css('cursor', 'pointer')
 								.on('click', function() {
 									$image.trigger('click');
 								});
-
+*/
 				});
 
 			// Poptrox.
-				$main.poptrox({
+				/*$main.poptrox({
 					baseZIndex: 20000,
 					caption: function($a) {
 
@@ -284,7 +284,7 @@
 					usePopupNav: true,
 					windowMargin: 50
 				});
-
+*/
 				// Hack: Set margins to 0 when 'xsmall' activates.
 					skel
 						.on('-xsmall', function() {
