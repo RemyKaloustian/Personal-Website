@@ -232,13 +232,19 @@ hr
 {
     width:20%;
     //height: 400px;
-    position: absolute;
-    z-index: 999;
+    //position: absolute;
+    //z-index: 999;
     margin-left: auto;
     margin-right: auto;
-    background-color: #1a1a1a;
+     display:table;
+    background-color: #9e9e9e;
 }
 
+ #popup
+ {
+     background-color: #e91e63;
+     height: 100px;
+ }
  body .dayumfooter
  {
      color: #bdbdbd;

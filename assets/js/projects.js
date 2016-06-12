@@ -13,7 +13,7 @@ $(document).ready(function(){
 
     $(".thumb").click(function () {
         setTimeout(function(){
-            $("#popo").text("POOPOP");
+           // $("#popo").text("POOPOP");
         }, 2000);
     });
 
