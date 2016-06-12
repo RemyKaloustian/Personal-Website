@@ -231,7 +231,7 @@ hr
  .loading_popup
 {
     width:20%;
-    height: 400px;
+    //height: 400px;
     position: absolute;
     z-index: 999;
     margin-left: auto;

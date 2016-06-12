@@ -6,14 +6,15 @@
 $(document).ready(function(){
 
 
-    $( "#loading_popup" ).dialog({
+   /* $( "#loading_popup" ).dialog({
         autoOpen: false,
         dialogClass:"loading_popup"
-    });
+    });*/
 
     $(".thumb").click(function () {
-        console.log("Clicked a project ");
-        $( "#loading_popup" ).dialog('open');
+        setTimeout(function(){
+            $("#popo").text("POOPOP");
+        }, 2000);
     });
 
 
