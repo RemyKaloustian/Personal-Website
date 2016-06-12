@@ -16,6 +16,11 @@ src: url('../fonts/Raleway-Light.ttf');
 
 }
 
+h1,h2,h3,h4,h5,h6,p
+{
+    color: #F5F5F5;
+}
+
 h1
 {
     font-family: CodeLight;
@@ -211,13 +216,30 @@ hr
    padding-top: 30px;
 }
 
+#three
+{
+    background-image: url(../../images/contact.jpg);
+    background-size: cover;
+}
 
-body #loading_popup
+.contact_content
+{
+    color:#0F3057 ;
+}
+
+
+ .loading_popup
 {
     width:20%;
+    height: 400px;
     position: absolute;
     z-index: 999;
     margin-left: auto;
     margin-right: auto;
     background-color: #1a1a1a;
 }
+
+ body .dayumfooter
+ {
+     color: #bdbdbd;
+ }

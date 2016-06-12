@@ -4,11 +4,19 @@
 		<title>Rémy KALOUSTIAN</title>
 		<meta charset="utf-8" />
 
+
+		<!--Part for JQuery UI -->
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+        <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" />
+
         <!--Hyperspace part-->
 
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>-->
         <script src="responsive.js"></script>
 
        <!-- <link rel="stylesheet" href="assets/css/foundation.css" />-->
@@ -249,7 +257,7 @@
                 </div>
 
 
-				<div id="loading_popup">
+				<div class="loading_popup" id="loading_popup">
                     <div class="loader">
                         <div class="loader-inner ball-pulse-rise">
                             <div></div>
@@ -267,9 +275,9 @@
 				<!-- Three -->
 					<section id="three" class="wrapper style1 fade-up">
                        <div id="contact_div" >
-                           <h2>Rémy KALOUSTIAN</h2>
-                            <h3>Computer Guy</h3><hr>
-                           <p id="contact_text">Dem icons</p>
+                           <h2 class="contact_content">Rémy KALOUSTIAN</h2>
+                            <h3 class="contact_content">Computer Guy</h3><hr>
+                           <p id="contact_text" class="contact_content">Dem icons</p>
 
 
                            <div>
@@ -288,23 +296,22 @@
 			</div>
 
 		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
+			<footer id="footer" class="wrapper style1-alt dayumfooter">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
+						<li>&copy; Rémy Kaloustian.2016. All rights reserved (well not all rights but most of them).</li><li>Big up to HTML5UP for the design</li>
+                        <li>By the way, you can't mind control this website. Too bad.</li><li>Here is a <a href="https://www.youtube.com/watch?v=1eO5U_uN7DQ" target="_blank">funny video</a> to comfort you</li>
+
+                    </ul>
 				</div>
 			</footer>
 
 
-		<!-- Scripts -->
 
-        <script src="assets/js/contact.js"></script>
-		<script src="assets/js/projects.js"></script>
 
 
         <!-- Hyperspace part -->
-			<script src="assets/js/jquery.min.js"></script>
+			<!--<script src="assets/js/jquery.min.js"></script>-->
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
@@ -319,5 +326,11 @@
         <script src="assets/js/util2.js"></script>
         <script src="assets/js/main2.js"></script>
 
+
+
+        <!-- Scripts -->
+
+        <script src="assets/js/contact.js"></script>
+        <script src="assets/js/projects.js"></script>
 	</body>
 </html>
