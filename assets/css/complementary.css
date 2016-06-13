@@ -240,10 +240,11 @@ hr
     //background-color: #9e9e9e;
 }
 
- #popup
+ body #popup
  {
      background-color: #e91e63;
-     height: 100px;
+        min-height: 100px;
+     font-family: LatoLight;
  }
  body .dayumfooter
  {
