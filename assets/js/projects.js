@@ -10,6 +10,10 @@ $(document).ready(function(){
 
 
     $(".thumb").click(function () {
+
+        $("#loading_popup").css("display", "block");
+        $("#details_popup").css("display", "none");
+
         setTimeout(function(){
             $("#loading_popup").css("display", "none");
            $("#details_popup").css("display", "block");
