@@ -11,8 +11,11 @@ $(document).ready(function(){
 
     $(".thumb").click(function () {
 
+        $("#popup").css("backgroundColor", "#e91e63");
         $("#loading_popup").css("display", "block");
         $("#details_popup").css("display", "none");
+
+
 
         $("#project_title").text($(this).data("title"));
         $("#project_role").text($(this).data("role"));
@@ -29,7 +32,9 @@ $(document).ready(function(){
 
         setTimeout(function(){
             $("#loading_popup").css("display", "none");
-           $("#details_popup").css("display", "block");
+            $("#popup").css("backgroundColor", "#f5f5f5");
+
+            $("#details_popup").css("display", "block");
 
         }, 2000);
 

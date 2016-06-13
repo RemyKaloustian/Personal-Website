@@ -246,6 +246,42 @@ hr
         min-height: 100px;
      font-family: LatoLight;
  }
+
+#details_popup h3
+{
+    color: #e91e63;
+    font-size: 2rem;
+}
+
+ #details_popup h5
+ {
+    color: #673ab7;
+     font-size: 1.5rem;
+     border-bottom: 1px solid #bdbdbd;
+     width:50%;
+     margin-left: auto;
+     margin-right: auto;
+     padding-bottom: 16px;
+ }
+
+#details_popup p
+{
+    color: #34363b;
+}
+
+#details_popup
+{
+    color: #e91e63;
+}
+
+#details_popup a
+{
+    padding-left: 20px ;
+    padding-right: 20px;
+}
+
+
+
  body .dayumfooter
  {
      color: #bdbdbd;
