@@ -14,6 +14,8 @@ $(document).ready(function(){
         $("#popup").css("backgroundColor", "#e91e63");
         $("#loading_popup").css("display", "block");
         $("#details_popup").css("display", "none");
+        $("#project_link").css("display","none");
+
 
 
 
@@ -24,8 +26,11 @@ $(document).ready(function(){
 
         if($(this).data("more").length >0)
         {
+            $("#project_link").css("display","block");
+
             $("#project_link").text($(this).data("more"));
             $("#project_link").attr("href", $(this).data("link"));
+
 
         }
 
