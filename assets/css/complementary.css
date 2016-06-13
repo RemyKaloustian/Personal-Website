@@ -228,16 +228,16 @@ hr
 }
 
 
- .loading_popup
+ #loading_popup
 {
-    width:20%;
+   // width:20%;
     //height: 400px;
     //position: absolute;
     //z-index: 999;
     margin-left: auto;
     margin-right: auto;
-     display:table;
-    background-color: #9e9e9e;
+     //display:table;
+    //background-color: #9e9e9e;
 }
 
  #popup

@@ -6,14 +6,14 @@
 $(document).ready(function(){
 
 
-   /* $( "#loading_popup" ).dialog({
-        autoOpen: false,
-        dialogClass:"loading_popup"
-    });*/
+    $("#details_popup").css("display", "none");
+
 
     $(".thumb").click(function () {
         setTimeout(function(){
-           // $("#popo").text("POOPOP");
+            $("#loading_popup").css("display", "none");
+           $("#details_popup").css("display", "block");
+
         }, 2000);
     });
 
