@@ -163,7 +163,8 @@ body #three
 #contact_div
 {
     width:50%;
-    background-color: white;
+    //background-color: white;
+    background-color: rgba(189,189, 189, 0.5);
     box-shadow: 0px 0px 1px 0px #0F3057;
     //border: 1px solid #0F3057;
     margin-right: auto;
@@ -278,6 +279,29 @@ hr
 {
     padding-left: 20px ;
     padding-right: 20px;
+}
+
+#cva
+{
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    background-color: rgba(189,189, 189, 0.5);
+
+    width:40%;
+    color: #d80073;
+   // border: 1px solid #d80073;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#cva:hover
+{
+    color: #f5f5f5;
+
 }
 
 
