@@ -310,3 +310,29 @@ hr
  {
      color: #bdbdbd;
  }
+
+
+ #useful
+ {
+     padding-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    display:table;
+ }
+
+#useful_title
+ {
+     color:#bdbdbd;
+     padding-bottom:15px;
+     border-bottom:1px solid #bdbdbd;
+     width:40%;
+     margin-left:auto;
+    margin-right:auto;
+    display:table;
+ }
+
+#useful a
+{
+    padding-left:10px;
+    padding-right:10px;
+}

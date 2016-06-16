@@ -3219,7 +3219,10 @@
 	}
 
 		.wrapper > .inner {
-			padding: 5em 5em 3em 5em ;
+			//padding: 5em 2em 3em 5em ;
+                        padding-top:2em;
+                        padding-left:3em;
+                        padding-bottom:2em;
 			max-width: 100%;
 			width: 75em;
 		}
