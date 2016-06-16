@@ -20,6 +20,7 @@ $(document).ready(function(){
 
 
         $("#project_title").text($(this).data("title"));
+        $("#project_goal").text($(this).data("goal"));
         $("#project_role").text($(this).data("role"));
         $("#project_skills").text($(this).data("skills"));
         $("#project_review").text($(this).data("review"));
