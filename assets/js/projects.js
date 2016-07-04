@@ -1,5 +1,5 @@
 /**
- * Created by Rémy Kaloustian on 10/06/2016.
+ * Created by Rï¿½my Kaloustian on 10/06/2016.
  */
 
 
@@ -42,7 +42,7 @@ $(document).ready(function(){
 
             $("#details_popup").css("display", "block");
 
-        }, 2000);
+        }, 1500);
 
 
 
